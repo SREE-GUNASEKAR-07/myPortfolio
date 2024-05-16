@@ -12,11 +12,7 @@ const Navbar = () => {
       <div className=" flex flex-shrink-0 items-center">
         <img className=" mx-2 w-10" src={logo} alt="logo" />
       </div>
-      {/* <ul>
-          {navlinks.map(({ link, path }) => (
-            <li>{link}</li>
-          ))}
-        </ul> */}
+
       <div className=" flex m-8 justify-center items-center gap-4 text-2xl">
         <FaLinkedin className="cursor-pointer" />
         <FaGithub className="cursor-pointer" />
