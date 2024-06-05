@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 const Contact = () => {
@@ -30,7 +30,7 @@ const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href="#" className=" border-b">
+        <a href={CONTACT.emailTo} type="email" className=" border-b">
           {CONTACT.email}
         </a>
       </div>
