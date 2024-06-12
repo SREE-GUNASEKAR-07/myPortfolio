@@ -11,7 +11,7 @@ const Projects = () => {
         transition={{ duration: 0.5, delay: 0.3 }}
         className=" my-20 text-center text-4xl"
       >
-        Projects
+        Recent <span className=" text-neutral-500">Works</span>
       </motion.h1>
       <div>
         {PROJECTS.map((projects, index) => (
@@ -22,13 +22,15 @@ const Projects = () => {
               transition={{ duration: 0.5 }}
               className=" w-full lg:w-1/4"
             >
-              <img
-                src={projects.image}
-                width={150}
-                height={150}
-                alt={projects.title}
-                className="mb-6 rounded"
-              />
+              <a href={projects.links} target={projects.target}>
+                <img
+                  src={projects.image}
+                  width={150}
+                  height={150}
+                  alt={projects.title}
+                  className="mb-6 rounded cursor-pointer"
+                />
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -41,9 +43,9 @@ const Projects = () => {
               {projects.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-900 "
+                  className="mr-2 rounded bg-neutral-900 px-2 py-1 font-medium text-purple-900"
                 >
-                  {tech}{" "}
+                  {tech}
                 </span>
               ))}
             </motion.div>

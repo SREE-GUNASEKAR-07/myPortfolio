@@ -14,7 +14,7 @@ const Hero = () => {
   });
 
   return (
-    <div className=" border-b border-neutral-900 lg:mb-35 lg:px-9">
+    <div className=" border-b border-neutral-900 lg:mb-35 lg:px-9 pb-4">
       <div className=" flex flex-wrap">
         <div className=" w-full lg:w-1/2 pr-2">
           <div className=" flex flex-col items-center lg:items-start">
@@ -22,7 +22,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className=" pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
+              className="  text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
             >
               SREE GUNASEKAR
             </motion.h1>
@@ -30,7 +30,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className=" bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
+              className=" pt-8 bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
               Full Stack Developer
             </motion.span>
@@ -44,8 +44,8 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        {/* <div className=" w-full lg:w-1/2 flex">
-          <div className=" flex justify-center h-3/5 ">
+        <div className=" w-full lg:w-1/2 flex">
+          <div className=" flex justify-center ">
             <motion.img
               className="rounded-2xl"
               initial={{ x: 100, opacity: 0 }}
@@ -55,7 +55,7 @@ const Hero = () => {
               alt="Profile Picture"
             />
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
