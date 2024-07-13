@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
-import resume from "../assets/GUNA.pdf";
+import resume from "../assets/SREEGUNA.pdf";
 import { motion } from "framer-motion";
 import { FiMail } from "react-icons/fi";
 const Navbar = () => {
@@ -32,7 +32,7 @@ const Navbar = () => {
             stiffness: 300,
           }}
           href={resume}
-          download="SREE GUNASEKAR RESUME"
+          download="GUNASEKAR RESUME"
         >
           <FaDownload className="cursor-pointer" />
         </motion.a>
