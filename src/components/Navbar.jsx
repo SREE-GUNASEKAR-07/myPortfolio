@@ -32,7 +32,7 @@ const Navbar = () => {
             stiffness: 300,
           }}
           href={resume}
-          download="SREE GUNASEKAR RESUME"
+          download="GUNASEKAR RESUME"
         >
           <FaDownload className="cursor-pointer" />
         </motion.a>
