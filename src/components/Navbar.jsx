@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
-import resume from "../assets/SREEGUNA.pdf";
+import resume from "../assets/GUNA.pdf";
 import { motion } from "framer-motion";
 import { FiMail } from "react-icons/fi";
 const Navbar = () => {
