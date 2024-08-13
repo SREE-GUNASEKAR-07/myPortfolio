@@ -6,8 +6,8 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - 2023",
-    role: "Software Developer Intern",
+    year: "2023 - 2024",
+    role: "Software Developer",
     company: "DYMENG TECHNOLOGIES",
     description: `Worked in an Agile environment with weekly stand-ups, kept track of user bugs in GitHub projects.Wrote unit tests in Jest to ensure code was tested and 100% bug free.Extensively work with making calls to APIs to fetch the data from the backend as JSON response.`,
     technologies: ["Javascript", "TailWind CSS", "React.js", "Java", "MySQL"],
